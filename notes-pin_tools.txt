@@ -1,0 +1,50 @@
+
+[2503]
+
+notes : pin tools
+
+Started because overwrote [moments] pin for [2403] on [2503] . . . selected
+the same poem and url twice, which over-wrote initial pin. use a previously
+downloaded json file of pins to find the corresponding data and re-add to pinboard.
+
+Then occur that have enough python depth now to process, analyze and re-purpose pins.
+
+This can then be its own project (maybe repo?) - which yes after saving ~6K links
+(actual number is much higher - how much?) do more with all of the pins. Can even 
+imagine a streamlit app with range of functionality.
+
+[ ] more experiments with date and time analysis?
+    . . . day of week, time of day for frequency analysis
+    . . . time formatting / string / other 
+    . . . example of most recent date and time : 2024-12-06T04:07:52Z
+    . . . looks like zulu or zero offset timezone?
+    . . . confirm with local time recorded pin next time adding a url
+[ ] specific tag processing?
+    . . . for example : ποτάμι
+    . . . ποτάμι : should work via python but how about in a sql query?
+    . . . graph of related graphs
+[ ] analysis of extended portion(s) of each pin?
+    . . . number of included urls per extended pin
+    . . . count number of times the following substrings occur : https:// or http:// 
+    . . . size of extended content over time, transition to 'bundled' or topical pins
+[ ] topical analysis : music, movies, recipes, ...
+    . . . decade timeline(s)
+    . . . map of geographic or places?
+[ ] inform future link(s), data flow?
+    . . . larger upcoming projects : notes, planning, research to json?
+[ ] if separate repo, can also back-up data and analysis?
+    . . . [ ] see if the ~5 MB core pins file can be uploaded?
+    . . . or need to split up the file somehow (by years?)
+    . . . just movies, just recipes, reading notes, ...
+[ ] keyword query
+    . . . basic app or interface
+[ ] draft wide ( and deep ) collection of sql queries?
+    . . . [\] import and query via sqlite3
+    . . . [ ] import and query via postgres
+[ ] experimental interfaces? 
+    . . . slider for time? month-year heatmap?
+[ ] seed experiments with crawlers?
+    . . . batch mode downloading of select content?
+
+* what is the time zone for the time for the pin?
+
