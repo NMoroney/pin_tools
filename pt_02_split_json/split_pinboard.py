@@ -32,6 +32,7 @@ def pin_tags_include(s):
     for i, ts in enumerate(df['tags']):
         if s in ts:
             idx.append(i)
+            print(df.at[i, 'description'])
 
     print(str(len(idx)))
 
@@ -55,7 +56,8 @@ def pin_split_tags_dont_include(s):
 
 
 # pin_url_ends_with("evening")
+pin_tags_include('ⓈJC')
 # pin_tags_include('§')
-pin_split_tags_dont_include('§')
+# pin_split_tags_dont_include('§')
 
 
